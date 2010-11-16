@@ -1,0 +1,11 @@
+.ct-cooltip { position: relative; display: inline-block; padding: 4px 6px; color: rgb(255,255,255); background: rgb(0,0,0); border-radius: 5px; -moz-border-radius: 5px; }
+
+.ct-arrow-top,
+.ct-arrow-right,
+.ct-arrow-bottom,
+.ct-arrow-left { display: block; position: absolute; width: 0; height: 0; border-style: solid; }
+
+.ct-arrow-top { top: -8px; left: 50%; margin: 0 0 0 -8px; border-width: 0 8px 8px 8px; border-color: transparent transparent rgb(0,0,0) transparent; }
+.ct-arrow-right { top: 50%; right: -8px; margin: -8px 0 0 0; border-width: 8px 0 8px 8px; border-color: transparent transparent transparent rgb(0,0,0); }
+.ct-arrow-bottom { bottom: -8px; left: 50%; margin: 0 0 0 -8px; border-width: 8px 8px 0 8px; border-color: rgb(0,0,0) transparent transparent transparent; }
+.ct-arrow-left { top: 50%; left: -8px; margin: -8px 0 0 0; border-width: 8px 8px 8px 0; border-color: transparent rgb(0,0,0) transparent transparent; }

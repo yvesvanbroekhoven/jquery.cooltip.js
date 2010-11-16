@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Cooltip</title>
+  <style type="text/css" media="screen">
+    body { padding: 25px; }
+  </style>
+  <link rel="stylesheet" href="jquery.cooltip.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="jquery.cooltip.js"></script>
+  <script>
+    $(function(){
+      console.log("alee");
+      $('a').cooltip();
+    });
+  </script>
+</head>
+<body>
+  <a href="//google.com" title="Head over to Google">The answer to your questions</a>
+  <span class="ct-cooltip">
+    cooltip text
+  </span>
+</body>
+</html>
